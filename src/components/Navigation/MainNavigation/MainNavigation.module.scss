@@ -1,0 +1,45 @@
+.navigationDrawerNav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop {
+  display: flex;
+}
+.desktopOptions {
+  display: flex;
+  margin: auto;
+  margin-right: 0px;
+}
+.hfxLogoTitle{
+  color: var(--txt);
+  font-weight: 800;
+}
+.mobile {
+  display: none;
+}
+.title {
+  font-size: 1.6rem;
+}
+.typewriterWrapperD {
+  font-size: 2.2em;
+  color: var(--txt-secondary);
+  font-weight: 800;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .desktopOptions{
+    display: none;
+  }
+  .typewriterWrapperD {
+      display: none;
+  }
+  .mobile {
+    display: flex;
+  }
+}
