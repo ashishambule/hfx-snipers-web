@@ -1,4 +1,9 @@
 import s from './TechSkills.module.scss';
+import Pawan from '../../../assets/Pawan.png'
+import Anil from '../../../assets/Anil.png'
+import Piyush from '../../../assets/Piyush.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import {
   DiJavascript1,
   DiReact,
@@ -24,9 +29,14 @@ const TechSkills = () => {
         <div className={s.techText}>
           PAWAN S. YELE
         </div>
-        <div
-          className={s.techIcon}>
-          <DiGoogleAnalytics />
+        <div className={s.techIcon}>
+          <LazyLoadImage
+            alt="card-img"
+            effect="blur"
+            src={Pawan}
+            width="100%"
+            style={{ minHeight: '5rem', minWidth: '5rem' }}
+          />
         </div>
       </li>
       <li>
@@ -35,7 +45,13 @@ const TechSkills = () => {
         </div>
         <div
           className={s.techIcon}>
-          <DiGoogleAnalytics />
+          <LazyLoadImage
+            alt="project-img"
+            src={Piyush}
+            effect="blur"
+            width="100%"
+            style={{ minHeight: '5rem', minWidth: '5rem' }}
+          />
         </div>
       </li>
       <li>
@@ -44,7 +60,13 @@ const TechSkills = () => {
         </div>
         <div
           className={s.techIcon}>
-          <DiGoogleAnalytics />
+          <LazyLoadImage
+            alt="project-img"
+            src={Anil}
+            effect="blur"
+            width="100%"
+            style={{ minHeight: '5rem', minWidth: '5rem' }}
+          />
         </div>
       </li>
     </ul>
