@@ -19,6 +19,8 @@ const MainSection = () => {
               'Multiple strategies',
               'Trade in Global Market',
               'Copy Paste Trading',
+              'Forex Market Mentorship',
+              'Become a Top Trader'
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}

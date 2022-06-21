@@ -36,9 +36,29 @@ const OurServiceTextCard = () => {
           <li className={s.aboutActivity}>Risk Management</li>
         </ul>
       </div>
-      <div style={{ textAlign: 'center', fontWeight: 500 }}>
+      <div className={s.alongText}>
         Along with above services, we provide daily copy paste trading
         from Monday to Friday
+      </div>
+
+      <div style={{paddingTop: '40px'}}>
+        <span className={s.secstxt}>Description:</span>
+        <div className={s.descTemplate}>
+          <p>
+            The Wealth advisor a leading global provider of online and
+            offline courses and covering a wide range of forex market
+            analysis. For those who want to wade into the shallow end
+            of forex trading , The wealth advisor offers comprehensive
+            beginner forex trading courses. Their low prices make The
+            wealth advisor an attractive choice for newbies who want
+            to see if forex trading is for them.
+          </p>
+          <p>
+            All courses are taught using Live video lessons that
+            include expert instruction with demonstrations of trading
+            techniques with live signals
+          </p>
+        </div>
       </div>
 
       <p

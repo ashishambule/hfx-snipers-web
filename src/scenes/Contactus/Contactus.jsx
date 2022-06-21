@@ -8,7 +8,7 @@ import {
   FaYoutubeSquare,
   FaMailBulk,
   FaPhone,
-  FaMapMarker
+  FaMapMarker,
 } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -39,9 +39,11 @@ const About = () => {
             Welcome to our Website. We are glad to have you around.
           </p>
           <div className={s.itemList}>
-            <div>
-              <FaPhone/>
-              <h2 className={s.listPhone}>Phone</h2>
+            <div style={{textAlign: 'center'}}>
+              <div className={s.contactOption}>
+                <FaPhone className={s.phoneType} />
+                <h2 className={s.listPhone}>Phone</h2>
+              </div>
               <ul>
                 <li className={s.aboutActivity}>+91-9021209558</li>
                 <li className={s.aboutActivity}>+91-8983468116</li>
@@ -49,11 +51,14 @@ const About = () => {
               </ul>
             </div>
             <div>
-              <FaMailBulk/>
-              <h3 className={s.listPhone}>Email Address</h3>
+              <div className={s.contactOption}>
+                <FaMailBulk className={s.phoneType} />
+                <h3 className={s.listPhone}>Email Address</h3>
+              </div>
+
               <ul>
                 <li className={s.aboutActivity}>
-                  hfxsnnipers@gmail.com
+                  hfxsnipers@gmail.com
                 </li>
               </ul>
             </div>
@@ -61,12 +66,22 @@ const About = () => {
         </div>
 
         <div>
-          <FaMapMarker/>
-          <h3 className={s.listPhone}>Address</h3>
-          <div className={s.aboutActivity}>
+          <div className={s.contactOption}>
+            <FaMapMarker className={s.phoneType} />
+            <h3 className={s.listPhone}>Address</h3>
+          </div>
+
+          <div className={s.address}>
             63, Nirmal Nagri, Nandanvan Road, Nagpur-440034
             (Maharashtra)
           </div>
+        </div>
+
+        <div className={s.queAns}>
+          <div className={s.wantText}>
+            Want to be the best at trading and investing ?
+          </div>
+          <div className={s.joinText}>Join our live session</div>
         </div>
 
         <div className={s.introSocial}>

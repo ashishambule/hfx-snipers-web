@@ -8,7 +8,7 @@ import {
 import { CgFileDocument } from 'react-icons/cg';
 import { routes } from '../../../routes/BaseRoutes';
 import { NavLink } from 'react-router-dom';
-import { FaPhone } from 'react-icons/fa';
+import { FaPhone, FaRupeeSign } from 'react-icons/fa';
 
 const NavLinks = () => {
   return (
@@ -45,19 +45,19 @@ const NavLinks = () => {
             Contact Us
           </NavLink>
         </li>
-        {/* <li>
-        <NavLink to={routes.FAQ} activeClassName={s.active}>
-          <AiOutlineQuestionCircle />
-          FAQ's
-        </NavLink>
-      </li> */}
+
         <li>
           <NavLink to={routes.ABOUT} activeClassName={s.active}>
             <AiOutlineUser />
             About Us
           </NavLink>
         </li>
-
+        <li>
+          <NavLink to={routes.FAQ} activeClassName={s.active}>
+            <FaRupeeSign />
+            Payments
+          </NavLink>
+        </li>
         {/* <li>
         <NavLink to={routes.RESUME} activeClassName={s.active}>
           <CgFileDocument />

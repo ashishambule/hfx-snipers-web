@@ -30,10 +30,8 @@ const ModalProjectCard = () => {
           wrapperClassName={s.image}
           placeholderSrc={image.placeholderSrc}
         />
-
         <div className={s.cardBody}>
           <h3 className={s.title}>{title}</h3>
-
           <div className={s.technologies}>
             {technologies.map((tech) => (
               <span>{tech}</span>
@@ -42,23 +40,23 @@ const ModalProjectCard = () => {
         </div>
 
         <div className={s.cardFooter}>
-          <Button
+          {/* <Button
             style={{ width: '12rem' }}
             className="primary"
             href={links.site}
             target="_blank"
           >
             <BiLinkExternal /> &nbsp; Instagram Profile
-          </Button>
+          </Button> */}
 
-          <Button
+          {/* <Button
             style={{ width: '12rem' }}
             className="primary"
             href={links.repo}
             target="_blank"
           >
             <BiLinkExternal /> &nbsp; Facebook Profile
-          </Button>
+          </Button> */}
         </div>
       </div>
     </Modal>
