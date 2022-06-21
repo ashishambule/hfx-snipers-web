@@ -3,6 +3,8 @@ import Sahil from '../assets/Sahil.png'
 import Akash from '../assets/Akash.png'
 import Gaurav from '../assets/Gaurav.png'
 import Vaibhav from '../assets/Vaibhav.png'
+import Kunal from '../assets/Kunal.jpeg'
+import Jittendra from '../assets/Jittendra.jpeg'
 export const PROJECTS = [
   {
     id: '1',
@@ -50,11 +52,11 @@ export const PROJECTS = [
   },
   {
     id: '3',
-    title: 'Sahil Gajbhiye',
+    title: 'Kunal Jadhav',
     description:
     "HFX snipers is the most responsive  with whom I have ever traded. They are very expert in the trading programs and systems that they uses. there explanation of the systems has been of great aid to my understanding of the rhythms in forex trading. there support and responsive communication have made trading far more enjoyable than I have ever experienced. My trading is much improved since I became HFX sniper Client.",
     image: {
-      src: Sahil,
+      src: Kunal,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
@@ -94,11 +96,11 @@ export const PROJECTS = [
   },
   {
     id: '5',
-    title: 'Gaurav Sahu',
+    title: 'Jittendra Gedam',
     description:
     "I have been extremely pleased with HFX snipers education and there copy paste trading program, in terms of the number of strategies are available for trading, ease and speed of use, as well as the reliability. Although many institute offer great service, most offer only great excuses. HFX snipers actually delivers!",
     image: {
-      src: Gaurav,
+      src: Jittendra,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
@@ -116,11 +118,11 @@ export const PROJECTS = [
   },
   {
     id: '6',
-    title: 'Vishal Kude',
+    title: 'Gaurav Sahu',
     description:
     "We are newbies to the forex markets. Fortunately, HFX snipers has made our entrance extremely easy and efficient. No matter how simple or complex our questions, HFX snipers staff were ever-present, patient, and willing to share their knowledge. I wish we had taken this route years ago.",
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
+      src: Gaurav,
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },

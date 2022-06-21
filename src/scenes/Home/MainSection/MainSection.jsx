@@ -7,14 +7,9 @@ const MainSection = () => {
   return (
     <section className={s.content}>
       <div className={s.header}>
-        <h2 style={{ paddingBottom: 15 }} className={s.title}>
-          Hi Lovely Peoples!
-          {/* <span className={s.wave}>👋🏻</span> */}
-        </h2>
-
         <h1 className={s.mainTitle}>
           We
-          <strong className={s.mainName}> AT HFX SNIPERS</strong>
+          <strong className={s.mainName}> HFX SNIPERS</strong>
         </h1>
 
         <div style={{ paddingTop: 50, maxWidth: '100%' }}>
@@ -24,9 +19,6 @@ const MainSection = () => {
               'Multiple strategies',
               'Trade in Global Market',
               'Copy Paste Trading',
-              'Bonus Trade', 
-              'Once in a month', 
-              'With 99.99% accuracy'
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}

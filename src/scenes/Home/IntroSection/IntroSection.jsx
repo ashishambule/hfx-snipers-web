@@ -1,43 +1,44 @@
 import s from './IntroSection.module.scss';
 
-
 const IntroSection = () => {
   return (
     <section className={s.content}>
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            LET US <span className={s.purple}> INTRODUCE </span>{' '}
-            OURSELVES
+            <span className={s.purple}>OUR ACHIEVEMENTS </span>{' '}
           </h1>
           <div className={s.description}>
             <p>
-              We are 3 highly trained and professional instrcutors
+              In the last 2 years, we have Trained and Counselled more
+              than 500+ students in finance and trading fields. From
+              2020 onwards we have traded and multi-folded our
+              portfolio by 1000% in Forex, and Trained 1000+ students
+              in Forex Trading. Most of the students are successfully
+              generating profits Daily.
             </p>
-            <p>
+            {/* <p>
               We have 2 Years of quality experience in
               <i>
-                <b className={s.purple}>
-                  {' '}
-                  Forex Trading
-                </b>
+                <b className={s.purple}> Forex Trading</b>
               </i>
-            </p>
-            <p>
-              A professional trading Instructors 🚀 <br />We
-              have an experience and knowledge of charts, indicators, technical analysis etc.{' '}
+            </p> */}
+            {/* <p>
+              A professional trading Instructors 🚀 <br />
+              We have an experience and knowledge of charts,
+              indicators, technical analysis etc.{' '}
               <i>
-                <b className={s.purple}>RSI, DMI, MACD, CTO, Volume</b>
+                <b className={s.purple}>
+                  RSI, DMI, MACD, CTO, Volume
+                </b>
               </i>{' '}
               Indicators on
               <br />
               <i>
-                <b className={s.purple}>
-                  Trading View
-                </b>
+                <b className={s.purple}>Trading View</b>
               </i>{' '}
               and some other cool insights about them.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

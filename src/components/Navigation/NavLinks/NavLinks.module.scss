@@ -12,6 +12,15 @@
   padding: .2rem 1.5rem;
 }
 
+.navNumber {
+  border: 1px solid #a588c0;
+  border-radius: 2px;
+  background-color: var(--logo-primary);
+  font-weight:600;
+  padding:10px !important;
+  cursor: pointer;
+}
+
 .navBar a {
   font-size: 1.2rem;
   color: var(--txt);

@@ -5,19 +5,13 @@ const OurServiceTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        This cource in{' '}
-        <span className={s.purple}>Hfx Snipers </span>
-        <br />
-        Will teach you price action, technical analysis,
-        <br />
-        Along with 4 Premium strategies, that we have formed
-        <br />
-        after gaining experties in market.
-        <br />
-        <br />
+        This course in <span className={s.purple}>Hfx Snipers </span>
+        Will teach you price action, technical analysis, Along with 4
+        Premium strategies, that we have formed after gaining
+        experties in market.
       </p>
       <div>
-        <p style={{ textAlign: 'justify' }}>
+        <p className={s.titleBox}>
           <h2 className={s.skills}>
             <b className={s.purple}>PRICE ACTION + 4 STRATEGIES</b>
           </h2>
@@ -25,45 +19,26 @@ const OurServiceTextCard = () => {
       </div>
       <div className={s.itemList}>
         <ul>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> What is Price Action (Strategy-1)
-          </li>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> CandleSticks (Strategy-2)
-          </li>
-          <li className={s.aboutActivity}>
-            <ImPointRight />Support and Resistance (Strategy-3)
-          </li>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> Trendlines (Strategy-4)
-          </li>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> Chart Patterns
-          </li>
+          <li className={s.aboutActivity}>What is Price Action</li>
+          <li className={s.aboutActivity}>CandleSticks</li>
+          <li className={s.aboutActivity}>Support and Resistance</li>
+          <li className={s.aboutActivity}>Trendlines</li>
+          <li className={s.aboutActivity}>Chart Patterns</li>
+          <li className={s.aboutActivity}>Indicators</li>
         </ul>
+
         <ul>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> Indicators
-          </li>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> Trading Setup (How to Trade)
-          </li>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> Risk Management
-          </li>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> Trading Psychology
-          </li>
-          <li className={s.aboutActivity}>
-            <ImPointRight /> Journal
-          </li>
+          <li className={s.aboutActivity}>Strategy-1</li>
+          <li className={s.aboutActivity}>Strategy-2</li>
+          <li className={s.aboutActivity}>Strategy-3</li>
+          <li className={s.aboutActivity}>Strategy-4</li>
+          <li className={s.aboutActivity}>Trading Psychology</li>
+          <li className={s.aboutActivity}>Risk Management</li>
         </ul>
       </div>
-      <div>
-
-        Along with above services, we provide one bonus trade per month with
-        <b className={s.purple}> 99.99% </b>
-        accuracy.
+      <div style={{ textAlign: 'center', fontWeight: 500 }}>
+        Along with above services, we provide daily copy paste trading
+        from Monday to Friday
       </div>
 
       <p
@@ -71,9 +46,11 @@ const OurServiceTextCard = () => {
           color: 'rgb(155 126 172)',
           textAlign: 'center',
           marginTop: '1rem',
+          fontWeight: 600,
         }}
       >
-        "Trading is not for the dabblers, the dreamers, or the desperate. It requires, above all, one steadfast trait of dedication. So if you are going to trade, trade like you mean it!"{' '}
+        Trading doesn't just reveal your character, it also builds it
+        if you stay in the game long enough.
       </p>
     </div>
   );

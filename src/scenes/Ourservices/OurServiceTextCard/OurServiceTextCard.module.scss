@@ -14,10 +14,22 @@
   }
 }
 
+.skills {
+  font-size:2rem;
+  text-align: center;
+  background: var(--bg-title);
+}
+
+.titleBox {
+  border: 1px solid #a588c0;
+ 
+}
+
 .aboutActivity {
   list-style: none;
   text-align: left;
   padding-left: 1px;
+  font-weight: 500;
 }
 
 .footer {
@@ -34,7 +46,19 @@
 }
 .itemList{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 1rem;
+  
+}
 
+@media (max-width: 925px) {
+  .content {
+    padding: 6rem 3rem 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    flex-wrap: wrap;
+  }
 }

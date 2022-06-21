@@ -5,7 +5,10 @@ import {
   FaFacebookSquare,
   FaInstagram,
   FaTelegramPlane,
-  FaYoutubeSquare
+  FaYoutubeSquare,
+  FaMailBulk,
+  FaPhone,
+  FaMapMarker
 } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -13,15 +16,64 @@ const About = () => {
   return (
     <BaseLayout>
       <div className={s.content}>
+        <h2 className={s.skills}>
+          Contact <b className={s.purple}>Info </b>
+        </h2>
         <Tilt trackOnWindow={true}>
-          <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
+          <LazyLoadImage
+            style={{ width: '100px' }}
+            alt="avatar"
+            effect="blur"
+            src={avatar}
+          />
         </Tilt>
+        <div className={s.contentContact}>
+          <p
+            style={{
+              color: 'rgb(155 126 172)',
+              fontWeight: 700,
+              fontSize: '1.2rem',
+              padding: '1rem',
+            }}
+          >
+            Welcome to our Website. We are glad to have you around.
+          </p>
+          <div className={s.itemList}>
+            <div>
+              <FaPhone/>
+              <h2 className={s.listPhone}>Phone</h2>
+              <ul>
+                <li className={s.aboutActivity}>+91-9021209558</li>
+                <li className={s.aboutActivity}>+91-8983468116</li>
+                <li className={s.aboutActivity}>+91-9689907102</li>
+              </ul>
+            </div>
+            <div>
+              <FaMailBulk/>
+              <h3 className={s.listPhone}>Email Address</h3>
+              <ul>
+                <li className={s.aboutActivity}>
+                  hfxsnnipers@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <FaMapMarker/>
+          <h3 className={s.listPhone}>Address</h3>
+          <div className={s.aboutActivity}>
+            63, Nirmal Nagri, Nandanvan Road, Nagpur-440034
+            (Maharashtra)
+          </div>
+        </div>
 
         <div className={s.introSocial}>
-          <h1>FIND US ON</h1>
+          <h3 className={s.listPhone}>FIND US ON</h3>
           <p>
-            Feel free to <span className={s.purple}>connect </span>with
-            us
+            Feel free to <span className={s.purple}>connect </span>
+            with us
           </p>
           <ul className={s.socialLinks}>
             <li className={s.socialLink}>

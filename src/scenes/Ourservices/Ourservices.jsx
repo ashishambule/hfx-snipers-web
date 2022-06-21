@@ -6,7 +6,7 @@ const About = () => {
     <BaseLayout>
       <div className={s.content}>
         <h2 className={s.skills}>
-          About  <b className={s.purple}>Cource </b> and <b className={s.purple}>Services</b>
+          About  <b className={s.purple}>Course </b> and <b className={s.purple}>Services</b>
       </h2>
       <OurServiceTextCard/>
     </div>

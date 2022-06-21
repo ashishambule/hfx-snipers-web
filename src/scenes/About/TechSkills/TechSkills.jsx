@@ -1,7 +1,7 @@
 import s from './TechSkills.module.scss';
-import Pawan from '../../../assets/Pawan.png'
-import Anil from '../../../assets/Anil.png'
-import Piyush from '../../../assets/Piyush.png'
+import Pawan from '../../../assets/Pawan.png';
+import Anil from '../../../assets/Anil.png';
+import Piyush from '../../../assets/Piyush.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import {
@@ -12,9 +12,7 @@ import {
   DiGit,
   DiSass,
 } from 'react-icons/di';
-import {
-  DiGoogleAnalytics
-} from 'react-icons/di'
+import { DiGoogleAnalytics } from 'react-icons/di';
 import {
   SiTypescript,
   SiRedux,
@@ -27,8 +25,10 @@ const TechSkills = () => {
     <ul className={s.container}>
       <li>
         <div className={s.techText}>
-          PAWAN S. YELE
+          <div>PAWAN S. YELE</div>
+          <div>(Founder & CEO)</div>
         </div>
+
         <div className={s.techIcon}>
           <LazyLoadImage
             alt="card-img"
@@ -41,10 +41,10 @@ const TechSkills = () => {
       </li>
       <li>
         <div className={s.techText}>
-          PIYUSH D. BHUTE
+          <div>PIYUSH D. BHUTE</div>
+          <div>(Founder & CEO)</div>
         </div>
-        <div
-          className={s.techIcon}>
+        <div className={s.techIcon}>
           <LazyLoadImage
             alt="project-img"
             src={Piyush}
@@ -56,10 +56,10 @@ const TechSkills = () => {
       </li>
       <li>
         <div className={s.techText}>
-          ANIL B. BHUTIYA
+          <div>ANIL B. BHUTIYA</div>
+          <div>(Founder & CEO)</div>
         </div>
-        <div
-          className={s.techIcon}>
+        <div className={s.techIcon}>
           <LazyLoadImage
             alt="project-img"
             src={Anil}

@@ -17,9 +17,10 @@ const About = () => {
             <AboutTextCard />
           </div>
         </div>
-        <TechSkills />
+        <div className={s.ceos}>
+          <TechSkills />
+        </div>
       </div>
-
     </BaseLayout>
   );
 };

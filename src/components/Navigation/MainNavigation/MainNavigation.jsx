@@ -18,8 +18,10 @@ const MainNavigation = () => {
     <>
       <Logo className={s.desktop} />
       <p className={s.typewriterWrapperD}>
-        HFX
-        <b className={s.hfxLogoTitle}>Snipers</b>
+        <span>HFX</span>
+        <span>
+          <b className={s.hfxLogoTitle}> SNIPERS</b>
+        </span>
       </p>
       <nav className={s.desktopOptions}>
         <NavLinks />
